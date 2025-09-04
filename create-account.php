@@ -41,7 +41,7 @@ if(isset($_POST['btnsubmit'])) {
     <title>Create new account - Equipment Management System</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* optional: quick styling kung wala pa sa style.css */
+        
         body {
              margin: 0;
             height: 100vh;
@@ -123,7 +123,7 @@ if(isset($_POST['btnsubmit'])) {
     </div>
 
     <script>
-    // JS para sa show/hide password
+   
     document.addEventListener("DOMContentLoaded", function () {
         const passwordInput = document.getElementById("txtpassword");
         const togglePassword = document.getElementById("togglePassword");
@@ -136,4 +136,5 @@ if(isset($_POST['btnsubmit'])) {
     });
     </script>
 </body>
+
 </html>
